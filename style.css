@@ -1,0 +1,228 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: teal;
+}
+.container-hero {
+    background-image:url(image/hero.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;flex-direction: column;
+    justify-content: center;
+    background-attachment: fixed;
+}
+.text {
+    text-align: center;
+    font: 20px;
+    color: white;
+}
+.container-info-panel {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.info-panel {
+    margin-top: 50px;
+    text-align: center;
+}
+.juddul-info-panel p {
+    font-size: 14px;
+}
+.info-panel .fab,.fas {
+    font-size: 40px;
+    color: teal;
+    margin-bottom: 20px;
+}
+.container-paket-kelas{
+    background-color: azure;
+    margin-top: 50px;
+}
+.header h2 {
+    padding-top: 50px;
+    text-align: center;
+}
+.header hr {
+    width: 20%;
+    margin: auto;
+    border: solid 2px;
+    margin-top: 5px;
+}
+.container-card-flex {
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+.card-items {
+    width: 400px;
+    background-color: azure;
+    padding: 20px;
+    margin-top: 30px;
+    box-shadow:0px 0px 20px -10px;
+    border-radius: 10px;
+}.card-items img {
+    width: 100%;
+    border-radius: 10px;
+}
+.card-items p {
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.card-items button {
+    margin-top:50px ;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    border: 2px solid;
+    font-size: 16px;
+    color: teal;
+}
+.card-items button:hover {
+    background-color: blue;
+    color: azure;
+}
+
+.container-showcase {
+    margin-top: 50px;
+}
+.showcase-flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+.showcase-items {
+    width: 500px;
+    padding-bottom: 40px;
+}
+.showcase-items img {
+    width: 105%;
+    height: 120%;
+    border-radius: 10px;
+}
+.showcase-items img:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+.showcase-galerry h3 {
+    margin-top: 20px;
+}
+.showcase-items p {
+    margin-top: 30px;
+    line-height: 28px;
+}
+.showcase-galerry button {
+    margin-top:50px ;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    border: 2px solid;
+    font-size: 16px;
+    color: teal;
+}
+.showcase-galerry button:hover {
+    background-color: blue;
+    color: azure;
+}
+.container-galerry {
+    margin-top: 50px;
+    background-color: azure;
+}
+.container-galerry h2 {
+    padding-top: 50px;
+    text-align: center;
+}
+.container-galerry hr {
+    width: 20%;
+    margin: auto;
+    border: solid 2px ;
+    margin-top: 5px;
+}
+.galerry-flex {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+}
+.galerry-items {
+    width: 400px;
+}
+.galerry-items img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.galerry-items img:hover {
+    transform: scale(1.1);
+    transition: 1s; 
+}
+.container-testimoni {
+    margin-top: 50px;
+    width: 100%;
+}
+.testimoni-flex {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.testimoni-items {
+    width: 300px;
+    background-color: azure;
+    box-sizing: 0px 0px 20px -10px;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+.testimoni-items img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.testimoni-items q {
+    font-size: 14px;
+    margin-top :50px;
+}
+.container-footer {
+    margin-top: 50px;
+    background-color: #1f3984;
+}
+.footer-flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.footer-items-logo {
+    width: 400px;
+}
+.footer-items-logo img {
+    width: 100px;
+    border-radius: 50%;
+}
+.footer-items-text {
+    width: 600px;
+    text-align: center;
+}
+.footer-items-text p {
+    color: azure;
+    font-size: 14px;
+    line-height: 20px;
+}
+.footer-items-text .fab {
+    color: azure;
+    font-size: 20px;
+    margin-top: 20px;
+}
